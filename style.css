@@ -169,7 +169,7 @@ a {
     justify-content: space-around;
     background-color: aliceblue;
     padding: 1rem;
-    position: sticky;
+    position: fixed;
     position: -webkit-sticky;
     bottom: 0;
     width: 100%;
@@ -181,4 +181,66 @@ a {
 
 .bottom:active {
     transform:scale(1.2);
+}
+
+.grapesPart {
+    padding: 1.5rem;
+    background-color: rgba(211, 211, 211, 0.371);
+}
+
+.grapesHeadline {
+    font-size: 1.5rem;
+}
+
+.grapesPara {
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.grapeVariety {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem 0;
+    /* background-color: rgba(211, 211, 211, 0.477); */
+    background-color: white;
+    /* background-color: black; */
+    border-radius: 0.8rem;
+    /* box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.453); */
+    /* flex-direction: column; */
+}
+
+.variety {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 0.1rem solid black; */
+    background-color: white;
+    box-shadow: 0 1rem 1rem rgba(128, 128, 128, 0.374);
+    border-radius: 0.8rem;
+    width: calc(25% - 1rem);
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+@media only screen and (max-width : 768px) {
+    .variety {
+        width: calc(50% - 1rem);
+    }
+}
+
+#variety {
+    width: 5rem;
+    border-radius: 1rem;
+}
+
+.grapeName {
+    font-size: 1rem;
+}
+
+.grapeDesc {
+    margin-top: 0.3rem;
+    font-size: 0.7rem;
+    font-weight: 600;
 }
