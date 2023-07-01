@@ -26,7 +26,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     min-height: 100vh;
     padding: 3rem 2.5rem;
 }
@@ -168,30 +168,6 @@ html {
     border-radius: 0.8rem;
 }
 
-a {
-    text-decoration: none;
-}
-
-.bottomBtns {
-    display: flex;
-    justify-content: space-around;
-    /* background-color: aliceblue; */
-    border-top: 0.1rem solid rgba(211, 211, 211, 0.286);;
-    background-color: white;
-    padding: 1rem;
-    position: fixed;
-    position: -webkit-sticky;
-    bottom: 0;
-    width: 100%;
-}
-
-.bottom {
-    width: 1.5rem;
-}
-
-.bottom:active {
-    transform:scale(1.2);
-}
 
 .grapesPart {
     padding: 1rem;
@@ -202,7 +178,7 @@ a {
 .grapesHeadline {
     padding: 1.5rem 1rem 0 1rem;
     font-size: 1.5rem;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .grapesPara {
@@ -246,11 +222,8 @@ a {
 
 #variety {
     width: 5rem;
+    height: 5rem;
     border-radius: 1rem;
-}
-
-#variety:after {
-    transform: scale(2.2);
 }
 
 .grapeName {
@@ -258,7 +231,118 @@ a {
 }
 
 .grapeDesc {
-    margin-top: 0.1rem;
+    margin-top: 0.2rem;
     font-size: 0.7rem;
     font-weight: 500;
 }
+
+/* Our projects part */
+
+.ourProjects {
+    margin: 1rem 0;
+}
+
+.projectsHeadline {
+    padding: 1rem 2rem;
+}
+
+.projectsPara {
+    padding-left: 2rem;
+    margin-top: -0.5rem;
+}
+
+.projectPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectImage {
+    width: 100%;
+    padding: 1.5rem;
+    margin-bottom: -2rem;
+}
+
+#projectImage {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+.areaAndLocation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100vw;
+    padding: 1.5rem;
+}
+
+#projectArea,
+#projectCrop,
+#projectLocation {
+    width: 1.5rem;
+}
+
+.areaPara1,
+.cropPara1,
+.locationPara1 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.areaPara2,
+.cropPara2,
+.locationPara2 {
+    font-size: 0.8rem;
+    /* font-weight: 600; */
+}
+
+.moreProjects {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem;
+    margin-top: -2rem;
+}
+
+.moreButton {
+    width: 100%;
+}
+
+.arrowImage {
+    margin-left: -10rem;
+    margin-top: 1rem;
+    transform: rotate(90deg);
+}
+
+#arrowImage {
+    width: 1rem;
+    background-color: white;
+    border-radius: 0.6rem;
+}
+/* Bottom buttons part */
+
+a {
+    text-decoration: none;
+}
+
+.bottomBtns {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aliceblue; */
+    border-top: 0.1rem solid rgba(211, 211, 211, 0.286);;
+    background-color: white;
+    padding: 1rem;
+    position: fixed;
+    position: -webkit-sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom {
+    width: 1.5rem;
+}
+
+.bottom:active {
+    transform:scale(1.2);
+}
+
