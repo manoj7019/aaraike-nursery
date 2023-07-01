@@ -4,8 +4,12 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
-    background-image: url(./images/bgImage.jpg);
+    background-image: url(./images/bgImageDark.jpg);
     /* background-color: rgb(0, 83, 0); */
     background-size: cover;
     color: white;
@@ -31,10 +35,14 @@
 
 #logoImage {
     width: 5rem;
+    margin-right: 0.8rem;
+    margin-left: -1rem;
 }
 
-.logoName {
+.logoName1,
+.logoName2 {
     font-size: 1.5rem;
+    margin: -0.5rem;
 }
 
 .button {
@@ -45,12 +53,132 @@
     padding: 2rem;
 }
 
+.buttonLine1 {
+    font-size: 1.4rem;
+}
+
+.buttonLine2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 #getStartedBtn {
     color: white;
-    background-color: rgba(252, 251, 251, 0.555);
+    background-color: rgba(252, 251, 251, 0.258);
+    /* background-color: rgba(0, 66, 0, 0.414); */
     width: 100%;
     padding: 1rem;
     border: none;
     border-radius: 2rem;
     font-size: 1rem;
+}
+
+#getStartedBtn:active {
+    transform: scale(1.1);
+}
+
+.versionName {
+    align-self: center;
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.39);
+}
+
+/* HomePage */
+
+    /* Header */
+.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.logoHP {
+    display: flex;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: aliceblue;
+}
+
+#logoImageHP {
+    width: 1.5rem;
+    border: 0.1rem solid green;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+    /* firstPart */
+
+.firstPart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+.headingHP {
+    width: calc(50% - 3rem);
+    margin-bottom: 2rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.headingImageHP {
+    width: calc(50% - 3rem);
+}
+
+@media only screen and (max-width: 768px) {
+    .headingHP {
+        width: calc(100%);
+    }
+    .headingImageHP {
+        width: calc(100%);
+    }
+} 
+
+.btn {
+    border-radius: 0.6rem;
+    border: none;
+    background-color: black;
+    box-shadow: 0rem 0.2rem 0.8rem rgba(0, 0, 0, 0.313);
+    color: white;
+}
+
+#mainImage {
+    width: 100%;
+    border-radius: 0.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bottomBtns {
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    padding: 1rem;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom {
+    width: 1.5rem;
+}
+
+.bottom:active {
+    transform:scale(1.2);
 }
