@@ -1,5 +1,6 @@
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, sans-serif ; */
     box-sizing: border-box;
     margin: 0;
 }
@@ -7,8 +8,17 @@
 html {
     scroll-behavior: smooth;
 }
-
+/* #bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
+} */
 .container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-image: url(./images/bgImageDark.jpg);
     /* background-color: rgb(0, 83, 0); */
     background-size: cover;
@@ -102,7 +112,8 @@ html {
     top: 0;
     position: sticky;
     position: -webkit-sticky;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    background-color: white;
 }
 
 #logoImageHP {
@@ -130,8 +141,13 @@ html {
 
 .btn {
     margin-top: 1rem;
-    width: 50%;
-    padding: 0.5rem;
+    width: 70%;
+    padding: 0.7rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: black;
+    /* box-shadow: 0rem 0.1rem 0.5rem rgba(0, 0, 0, 0.313); */
+    color: white;
 }
 
 .headingImageHP {
@@ -147,14 +163,6 @@ html {
     }
 } 
 
-.btn {
-    border-radius: 0.6rem;
-    border: none;
-    background-color: black;
-    box-shadow: 0rem 0.2rem 0.8rem rgba(0, 0, 0, 0.313);
-    color: white;
-}
-
 #mainImage {
     width: 100%;
     border-radius: 0.8rem;
@@ -167,7 +175,9 @@ a {
 .bottomBtns {
     display: flex;
     justify-content: space-around;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    border-top: 0.1rem solid rgba(211, 211, 211, 0.286);;
+    background-color: white;
     padding: 1rem;
     position: fixed;
     position: -webkit-sticky;
@@ -184,27 +194,31 @@ a {
 }
 
 .grapesPart {
-    padding: 1.5rem;
-    background-color: rgba(211, 211, 211, 0.371);
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+    background-color: rgba(211, 211, 211, 0.286);
 }
 
 .grapesHeadline {
+    padding: 1.5rem 1rem 0 1rem;
     font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .grapesPara {
+    padding: 0 1rem;
     margin: 0.5rem 0 1.5rem 0;
 }
 
 .grapeVariety {
     display: flex;
     flex-wrap: wrap;
-    padding: 1rem;
+    /* padding: 1rem; */
     margin: 1rem 0;
     /* background-color: rgba(211, 211, 211, 0.477); */
-    background-color: white;
+    /* background-color: white; */
     /* background-color: black; */
-    border-radius: 0.8rem;
+    /* border-radius: 0.8rem; */
     /* box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.453); */
     /* flex-direction: column; */
 }
@@ -217,9 +231,9 @@ a {
     text-align: center;
     /* border: 0.1rem solid black; */
     background-color: white;
-    box-shadow: 0 1rem 1rem rgba(128, 128, 128, 0.374);
+    /* box-shadow: 0 1rem 1rem rgba(128, 128, 128, 0.374); */
     border-radius: 0.8rem;
-    width: calc(25% - 1rem);
+    width: calc(33.333333% - 1rem);
     margin: 0.5rem;
     padding: 1rem;
 }
@@ -235,12 +249,16 @@ a {
     border-radius: 1rem;
 }
 
+#variety:after {
+    transform: scale(2.2);
+}
+
 .grapeName {
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .grapeDesc {
-    margin-top: 0.3rem;
+    margin-top: 0.1rem;
     font-size: 0.7rem;
-    font-weight: 600;
+    font-weight: 500;
 }
