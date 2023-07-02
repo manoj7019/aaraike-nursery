@@ -9,6 +9,25 @@ function changeHome() {
     let pinIcon = document.getElementById('pinIcon');
     let grapesIcon = document.getElementById('grapesIcon');
     let phoneCallIcon = document.getElementById('phoneCallIcon');
+    let shovelIcon = document.getElementById('shovelIcon');
+    shovelIcon.src = 'images/shovel.png';
+    pinIcon.src = 'images/pin.png';
+    grapesIcon.src = 'images/grapes.png';
+    phoneCallIcon.src = 'images/phoneCall.png';
+}
+
+function changeShovel() {
+    let shovelIcon = document.getElementById('shovelIcon');
+    if(shovelIcon.src.match("shovellll")) {
+        shovelIcon.src = 'images/shovel.png';
+        return;
+    } else {
+        shovelIcon.src = 'images/shovel1.png';
+    }
+    let pinIcon = document.getElementById('pinIcon');
+    let grapesIcon = document.getElementById('grapesIcon');
+    let phoneCallIcon = document.getElementById('phoneCallIcon');
+    homeIcon.src = 'images/home.png';
     pinIcon.src = 'images/pin.png';
     grapesIcon.src = 'images/grapes.png';
     phoneCallIcon.src = 'images/phoneCall.png';
@@ -25,6 +44,8 @@ function changePin() {
     let homeIcon = document.getElementById('homeIcon');
     let grapesIcon = document.getElementById('grapesIcon');
     let phoneCallIcon = document.getElementById('phoneCallIcon');
+    let shovelIcon = document.getElementById('shovelIcon');
+    shovelIcon.src = 'images/shovel.png';
     homeIcon.src = 'images/home.png';
     grapesIcon.src = 'images/grapes.png';
     phoneCallIcon.src = 'images/phoneCall.png'
@@ -40,6 +61,8 @@ function changeGrapes() {
     let homeIcon = document.getElementById('homeIcon');
     let pinIcon = document.getElementById('pinIcon');
     let phoneCallIcon = document.getElementById('phoneCallIcon');
+    let shovelIcon = document.getElementById('shovelIcon');
+    shovelIcon.src = 'images/shovel.png';
     homeIcon.src = 'images/home.png';
     pinIcon.src = 'images/pin.png';
     phoneCallIcon.src = 'images/phoneCall.png'
@@ -55,10 +78,11 @@ function changePhoneCall() {
     let homeIcon = document.getElementById('homeIcon');
     let grapesIcon = document.getElementById('grapesIcon');
     let pinIcon = document.getElementById('pinIcon');
+    let shovelIcon = document.getElementById('shovelIcon');
+    shovelIcon.src = 'images/shovel.png';
     homeIcon.src = 'images/home.png';
     grapesIcon.src = 'images/grapes.png';
     pinIcon.src = 'images/pin.png'
 }
-
 
 

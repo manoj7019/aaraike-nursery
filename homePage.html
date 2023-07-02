@@ -3,29 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>home</title>
     <link rel="icon" type="image/png" href="./images/transparentLogo.png">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div class="container1">
         <div class="logoHP">
-            <img id="logoImageHP" src="./images/transparentLogo.png">
+            <img id="logoImageHP" src="./images/logo.jpg">
             <h3 class="logoNameHP">aaraike nursery.</h3>
         </div>
         <div class="firstPart">
             <div class="headingHP">
-                <h1 class="headLine headLineHP1">Fulfill your dream of becoming a farmer</h1>
-                <h3 class="headLine headLineHP2">by planting grapes.</h3>
+                <h1 class="headLine headLineHP1">Become a farmer from the comfort of home.</h1>
+                <h3 class="headLine headLineHP2">We will manage your land from planting till harvesting.</h3>
                 <!-- <p class="headPara">Becoming a farmer isn't just a dream anymore, because we will do all the boring and field work for you.</p> -->
                 <a href="">
-                    <button class="btn callBtn">Call us now.</button>
+                    <button class="btn callBtn">How it works?</button>
                 </a>
             </div>
             <div class="headingImageHP">
                 <img id="mainImage" src="./images/farmerImage.jpg">
             </div>
         </div>
+
+        <!-- <div class="howPart">
+            <h2 class="howHeadline">How it works?</h2>
+            <p class="howPara">Here's how</p>
+            <div class="how">
+                <div class="howImage">
+                    <img id="howImage" src="./images/land.png">
+                </div>
+                <div class="howDesc">
+                    <p id="howDesc">We'll help you rent a land.</p>
+                </div>
+            </div>
+        </div> -->
         
         <div id="grapesPart" class="grapesPart">
             <h2 class="grapesHeadline">Our grape varieties</h2>
@@ -105,9 +118,10 @@
                 </div> -->
             </div>
         </div>
+        
         <div class="ourProjects">
-            <h2 class="projectsHeadline">Our projects</h2>
-            <p class="projectsPara">We helped our people to build farms here.</p>
+            <h2 class="projectsHeadline">Have a look at our projects</h2>
+            <p class="projectsPara">We're managing the grape farms of 80+ people across Karnataka and Andhra.</p>
             <div class="projectPart">
                 <div class="projectImage">
                     <img id="projectImage" src="./images/project1.jpg">
@@ -119,9 +133,9 @@
                         <p class="areaPara2">Area</p>
                     </div>
                     <div class="projectCrop">
-                        <img id="projectCrop" src="./images/grapes.png">
-                        <p class="cropPara1">Red Globe</p>
-                        <p class="cropPara2">Area</p>
+                        <img id="projectCrop" src="./images/farmer.png">
+                        <p class="cropPara1">Bharath kumar</p>
+                        <p class="cropPara2">Engineer</p>
                     </div>
                     <div class="projectLocation">
                         <img id="projectLocation" src="./images/location.png">
@@ -132,29 +146,43 @@
             </div>
             <div class="moreProjects">
                 <div class="moreButton">
-                    <a href="">
-                        <button class="btn moreProjectsBtn">More projects</button>
-                    </a>
-                </div>
-                <div class="arrowImage">
-                    <a href="">
-                        <img id="arrowImage" src="./images/arrow.png">
+                    <a href="./projects.html">
+                        <button class="btn moreProjectsBtn">More projects<span id="arrowBtn"><img id="arrowImage" src="./images/arrow.png"></span></button>
                     </a>
                 </div>
             </div>
         </div>
-        <h2>Abcd</h2>
-        <h2>Abcd</h2>
-        <h2>Abcd</h2>
+
+        <div class="ourLocPart">
+            <h2 class="ourLocHeadline">Give us a visit</h2>
+            <p class="ourLocPara">We are located at a village <b>Kolavanahalli, Chikkaballapur.</b></p>
+            <div class="ourLoc">
+                <a href="https://maps.app.goo.gl/n7nMUnbexLPhewma8">
+                    <video autoplay muted loop id="locVideo">
+                        <source src="./images/locationVideo.mp4" type="video/mp4">
+                    </video>
+                </a>
+            </div>
+        </div>
+
+        
+
+        <br>
+        <br>
+        <br>
+
         <div class="bottomBtns" id="bottomBtns">
             <a href="#">
                 <img id="homeIcon" class="bottom bottomBtn1" src="./images/home1.png" onclick="changeHome();">
             </a>
-            <a href="#grapesPart">
-                <img id="pinIcon" class="bottom bottomBtn1" src="./images/pin.png" onclick="changePin();">
+            <a href="#">
+                <img id="shovelIcon" class="bottom bottomBtn1" src="./images/shovel.png" onclick="changeShovel();">
             </a>
             <a href="#">
                 <img id="grapesIcon" class="bottom bottomBtn1" src="./images/grapes.png" onclick="changeGrapes();">
+            </a>
+            <a href="#">
+                <img id="pinIcon" class="bottom bottomBtn1" src="./images/pin.png" onclick="changePin();">
             </a>
             <a href="#">
                 <img id="phoneCallIcon" class="bottom bottomBtn1" src="./images/phoneCall.png" onclick="changePhoneCall();">
