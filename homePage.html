@@ -9,9 +9,19 @@
 </head>
 <body>
     <div class="container1">
-        <div class="logoHP">
-            <img id="logoImageHP" src="./images/logo.jpg">
-            <h3 class="logoNameHP">aaraike nursery.</h3>
+        <div class="headHP">
+            <div class="logoHP">
+                <img id="logoImageHP" src="./images/logo.jpg">
+                <h3 class="logoNameHP">aaraike nursery.</h3>
+            </div>
+            <div class="topBtn">
+            <!-- <a href="./howPage.html"> -->
+                <!-- <img id="whatsappIcon" class="bottom bottomBtn1" src="./images/whatsapp.png" onclick="changePhoneCall();"> -->
+            <!-- </a> -->
+            <!-- <a href="./howPage.html"> -->
+                <!-- <img id="phoneIcon" class="bottom bottomBtn1" src="./images/phoneCall.png" onclick="changePhoneCall();"> -->
+            <!-- </a> -->
+            </div>
         </div>
         <div class="firstPart">
             <div class="headingHP">
@@ -27,19 +37,74 @@
             </div>
         </div>
 
-        <!-- <div class="howPart">
-            <h2 class="howHeadline">How it works?</h2>
-            <p class="howPara">Here's how</p>
-            <div class="how">
-                <div class="howImage">
-                    <img id="howImage" src="./images/land.png">
+        <div class="whyPart">
+            <h2 class="whyHeadline">Why it works?</h2>
+            <p class="whyPara">Why we plant only grapes? </p>
+            <div class="why">
+                <div class="whyImage">
+                    <img id="whyImage" src="./images/demand.png">
                 </div>
-                <div class="howDesc">
-                    <p id="howDesc">We'll help you rent a land.</p>
+                <div class="step">
+                    <h3 class="stepHeadline">High demand</h3>
+                    <p class="stepDesc">Grapes require huge upfront investment, so majority of people aren't capable of doing it.</p>
                 </div>
             </div>
-        </div> -->
+            <div class="why">
+                <div class="whyImage">
+                    <img id="whyImage" src="./images/challenge.png">
+                </div>
+                <div class="step">
+                    <h3 class="stepHeadline">Extremely challenging</h3>
+                    <p class="stepDesc">Requires high maintenance with large amount of fertilizers and regular pesticides spray. Majority won't dare to spend that much money.</p>
+                </div>
+            </div>
+            <div class="why">
+                <div class="whyImage">
+                    <img id="whyImage" src="./images/patience.png">
+                </div>
+                <div class="step">
+                    <h3 class="stepHeadline">Requires more time</h3>
+                    <p class="stepDesc">It takes almost 1½ year to get a yield after plantation. Majority are quite impatient for such a long wait.</p>
+                </div>
+            </div>
+        </div>
         
+        <div class="ourProjects">
+            <h2 class="projectsHeadline">Have a look at our projects</h2>
+            <p class="projectsPara">We're managing the grape farms of 80+ people across Karnataka and Andhra.</p>
+            <div class="projectPart">
+                <div class="projectImage">
+                    <a href="#">
+                        <img id="projectImage" src="./images/project1.jpg">
+                    </a>
+                </div>
+                <div class="areaAndLocation">
+                    <div class="projectArea">
+                        <img id="projectArea" src="./images/area.png">
+                        <p class="areaPara1">4.5 ac</p>
+                        <p class="areaPara2">Area</p>
+                    </div>
+                    <div class="projectCrop">
+                        <img id="projectCrop" src="./images/farmer.png">
+                        <p class="cropPara1">Bharath kumar</p>
+                        <p class="cropPara2">Owner</p>
+                    </div>
+                    <div class="projectLocation">
+                        <img id="projectLocation" src="./images/location.png">
+                        <p class="locationPara1">Devanahalli</p>
+                        <p class="locationPara2">Bijwara</p>
+                    </div>
+                </div>
+            </div>
+            <div class="moreProjects">
+                <div class="moreButton">
+                    <a href="./projects.html">
+                        <button class="btn moreProjectsBtn">More projects<span id="arrowBtn"><img id="arrowImage" src="./images/arrow.png"></span></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div id="grapesPart" class="grapesPart">
             <h2 class="grapesHeadline">Our grape varieties</h2>
             <p class="grapesPara">We do plantation of all these beauties.</p>
@@ -118,40 +183,6 @@
                 </div> -->
             </div>
         </div>
-        
-        <div class="ourProjects">
-            <h2 class="projectsHeadline">Have a look at our projects</h2>
-            <p class="projectsPara">We're managing the grape farms of 80+ people across Karnataka and Andhra.</p>
-            <div class="projectPart">
-                <div class="projectImage">
-                    <img id="projectImage" src="./images/project1.jpg">
-                </div>
-                <div class="areaAndLocation">
-                    <div class="projectArea">
-                        <img id="projectArea" src="./images/area.png">
-                        <p class="areaPara1">4.5 ac</p>
-                        <p class="areaPara2">Area</p>
-                    </div>
-                    <div class="projectCrop">
-                        <img id="projectCrop" src="./images/farmer.png">
-                        <p class="cropPara1">Bharath kumar</p>
-                        <p class="cropPara2">Engineer</p>
-                    </div>
-                    <div class="projectLocation">
-                        <img id="projectLocation" src="./images/location.png">
-                        <p class="locationPara1">Devanahalli</p>
-                        <p class="locationPara2">Bijwara</p>
-                    </div>
-                </div>
-            </div>
-            <div class="moreProjects">
-                <div class="moreButton">
-                    <a href="./projects.html">
-                        <button class="btn moreProjectsBtn">More projects<span id="arrowBtn"><img id="arrowImage" src="./images/arrow.png"></span></button>
-                    </a>
-                </div>
-            </div>
-        </div>
 
         <div class="ourLocPart">
             <h2 class="ourLocHeadline">Give us a visit</h2>
@@ -159,7 +190,7 @@
             <div class="ourLoc">
                 <a href="https://maps.app.goo.gl/n7nMUnbexLPhewma8">
                     <video autoplay muted loop id="locVideo">
-                        <source src="./images/locationVideo.mp4" type="video/mp4">
+                        <source src="./images/ourLocationHD.mp4" type="video/mp4">
                     </video>
                 </a>
             </div>
@@ -175,7 +206,7 @@
             <a href="#">
                 <img id="homeIcon" class="bottom bottomBtn1" src="./images/home1.png" onclick="changeHome();">
             </a>
-            <a href="#">
+            <a href="./projects.html">
                 <img id="shovelIcon" class="bottom bottomBtn1" src="./images/shovel.png" onclick="changeShovel();">
             </a>
             <a href="#">
@@ -184,7 +215,7 @@
             <a href="#">
                 <img id="pinIcon" class="bottom bottomBtn1" src="./images/pin.png" onclick="changePin();">
             </a>
-            <a href="#">
+            <a href="./howPage.html">
                 <img id="phoneCallIcon" class="bottom bottomBtn1" src="./images/phoneCall.png" onclick="changePhoneCall();">
             </a>
         </div>

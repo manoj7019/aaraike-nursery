@@ -8,13 +8,7 @@
 html {
     scroll-behavior: smooth;
 }
-/* #bgVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100vh;
-} */
+
 .container {
     position: fixed;
     top: 0;
@@ -75,7 +69,7 @@ html {
 
 #getStartedBtn {
     color: white;
-    background-color: rgba(252, 251, 251, 0.258);
+    background-color: rgba(252, 251, 251, 0.358);
     /* background-color: rgba(0, 66, 0, 0.414); */
     width: 100%;
     padding: 1rem;
@@ -91,7 +85,7 @@ html {
 .versionName {
     align-self: center;
     text-align: center;
-    margin: 1.5rem;
+    margin: 2rem 1.5rem 4rem 1.5rem;
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.39);
 }
@@ -106,17 +100,29 @@ html {
     min-height: 100vh;
 }
 
+.headHP {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    background-color: white;
+}
+
 .logoHP {
     display: flex;
     padding: 1rem 1.5rem;
     align-items: center;
-    top: 0;
-    position: sticky;
-    position: -webkit-sticky;
-    /* background-color: aliceblue; */
-    background-color: white;
-    /* background-color: black; */
-    /* color: white; */
+}
+
+.topBtn {
+    padding-right: 1.5rem;
+}
+
+#whatsappIcon {
+    /* width: 2rem; */
+    /* margin-right: 0.5rem; */
 }
 
 #logoImageHP {
@@ -216,7 +222,7 @@ html {
 .variety {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     /* border: 0.1rem solid black; */
@@ -236,7 +242,7 @@ html {
 
 #variety {
     width: 5rem;
-    height: 5rem;
+    height: auto;
     border-radius: 1rem;
 }
 
@@ -344,7 +350,7 @@ html {
 .ourLocPart {
     width: 100%;
     padding: 1.5rem;
-    background-color: rgba(211, 211, 211, 0.286);;
+    background-color: rgba(211, 211, 211, 0.286);
 }
 
 .ourLocHeadline {
@@ -394,12 +400,54 @@ a {
 
 /* How it works? */
 
-.how {
-    display: flex;
-    align-items: center;
+.whyPart {
+    padding: 2rem 0;
+    background-color: rgba(211, 211, 211, 0.286);
 }
 
-#howImage {
+.whyHeadline {
+    padding-left: 1.5rem;
+}
+
+.whyPara {
+    padding-left: 1.5rem;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.why {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    /* border: 0.1rem solid black; */
+    border-radius: 0.8rem;
+    background-color: white;
+    /* box-shadow: 0rem 0.1rem 0.5rem rgba(0, 0, 0, 0.313); */
+}
+
+.whyImage {
+    width: 20%;
+}
+
+.stepHeadline {
+    margin-bottom: 0.2rem;
+}
+
+.stepDesc {
+    font-size: 1rem;
+}
+
+#whyImage {
     width: 3rem;
+}
+
+.step {
+    width: 80%;
+}
+
+/* Projects page */
+
+.callUsBtn {
+    margin: 0 1.5rem 3rem 1.5rem;
 }
 
