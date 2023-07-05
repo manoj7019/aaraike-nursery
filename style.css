@@ -102,7 +102,7 @@ p {
 .versionName {
     align-self: center;
     text-align: center;
-    margin: 2rem 1.5rem 3rem 1.5rem;
+    margin: 2rem 1.5rem 2rem 1.5rem;
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.39);
 }
@@ -124,7 +124,8 @@ p {
     top: 0;
     position: sticky;
     position: -webkit-sticky;
-    background-color: white;
+    background-color: black;
+    color: white;
     z-index: 1;
 }
 
@@ -205,6 +206,7 @@ p {
 .grapesPart {
     padding: 1rem;
     padding-bottom: 1.5rem;
+    /* margin-bottom: 1.5rem; */
     background-color: rgba(211, 211, 211, 0.286);
 }
 
@@ -292,6 +294,12 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.projectPart1 {
+    background-color: rgba(211, 211, 211, 0.286);
+    padding: 1.5rem 0;
+    margin: -1rem 0;
 }
 
 .projectImage {
@@ -478,4 +486,65 @@ a {
 
 .storyHeadline {
     margin-bottom: 1rem;
+}
+
+/* howPage.html */
+
+.howHeadline {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.howPara {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.howPart {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 0 0;
+    padding: 2rem 1.5rem;
+    width: 50%;
+    /* align-items: center; */
+}
+
+.howImage {
+    width: 100%;
+}
+
+#howImage {
+    width: 100%;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.how1,
+.how3 {
+    background-color: rgba(211, 211, 211, 0.286);
+}
+
+@media only screen and (max-width: 768px) {
+    .how {
+        width: 100%;
+    }
+}
+
+.stageHeadline {
+    margin-bottom: 0.5rem;
+}
+
+.doubts {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.doubts1 {
+    background-color: rgba(211, 211, 211, 0.286);
 }
