@@ -1,0 +1,157 @@
+{
+    "name": "Aaraike nursery",
+    "short_name": "Aaraike",
+    "icons": [
+        {
+            "src": "/images/area (1).png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/arrow.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/farmer1.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/grapes00.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/grapes01.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/home00.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/home01.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/hourglass (1).png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/money.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/phoneCall.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/phoneCall1.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/pin.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/pin1.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/placeholder.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/shovel00.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/shovel01.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/struggle.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/transparentLogo.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/whatsapp.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/whiteLogo.png",
+            "sizes": "276x276",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "images": [
+        {
+            "src": "/images/anushka.jpeg"
+        },
+        {
+            "src": "/images/bBlue.webp"
+        },
+        {
+            "src": "/images/dilkhush.jpeg"
+        },
+        {
+            "src": "/images/grapeFarm.jpeg"
+        },
+        {
+            "src": "/images/harvesting1.jpeg"
+        },
+        {
+            "src": "/images/logo.jpg"
+        },
+        {
+            "src": "/images/manik.jpg"
+        },
+        {
+            "src": "/images/pesticidesSpray.jpeg"
+        },
+        {
+            "src": "/images/project1.jpg"
+        },
+        {
+            "src": "/images/redGlobe.jpeg"
+        },
+        {
+            "src": "/images/saplingStage.webp"
+        },
+        {
+            "src": "/images/sarita.jpg"
+        },
+        {
+            "src": "/images/sharad1.jpeg"
+        },
+        {
+            "src": "/images/sonaka.jpg"
+        },
+        {
+            "src": "/images/storyImage.jpg"
+        }
+    ]
+}
