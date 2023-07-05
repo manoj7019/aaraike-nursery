@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv=”Permissions-Policy” content=”interest-cohort=()”>
     <title>Aaraike nursery</title>
     <link rel="icon" type="image/png" href="./images/transparentLogo.png">
     <link rel="stylesheet" href="./style.css">
@@ -39,7 +40,8 @@
 
         <div class="story">
             <h2 class="storyHeadline">Our story</h2>
-            <p class="storyPara">Hey, I'm Bharath. I started aaraike nursery with my friend Manu. At first we used to grow saplings from scratch. Soon we felt it's quiet a long process and searched for a shortcut. Luckily we got a wholesale suppliers of tiny little plant saplings. We bought those and nurtured them until they reach planting stage, then started to supply them for local farmers.<br><br>Our plants(I'm not bragging) have a success rate of 96% which is extremely rare. Our farmers are totally happy about the yield they got and promoted us everywhere. We have lmost 50% of grape farms in Chikkaballapur district outskirts and few parts of Andhra too.<br><br>We also built 80+ grapefarms of new farmers from scratch and helping them to manage. We believe grape farm is one of the best investments anybody can make. Coz of it's high ROI.</p>
+            <img id="storyImage" src="./images/storyImage.jpg">
+            <p class="storyPara">Hey, I'm Bharath(to your left). I started aaraike nursery with my friend Manu. At first we used to grow saplings from scratch. Soon we felt it's quiet a long process and searched for a shortcut. Luckily we got a wholesale suppliers of tiny little plant saplings. We bought those and nurtured them until they reach planting stage, then started to supply them for local farmers.<br><br>Our plants(I'm not bragging) have a success rate of 96% which is extremely rare. Our farmers are totally happy about the yield they got and promoted us everywhere. We have almost 50% of grape farms in Chikkaballapur district outskirts and few parts of Andhra too.<br><br>We also built 80+ grapefarms of new farmers from scratch and helping them to manage. We believe grape farm is one of the best investments anybody can make. Coz of it's high ROI.</p>
         </div>
 
         <div class="whyPart">
@@ -47,16 +49,16 @@
             <p class="whyPara">Why we plant only grapes? </p>
             <div class="why">
                 <div class="whyImage">
-                    <img id="whyImage" src="./images/demand.png">
+                    <img id="whyImage" src="./images/money.png">
                 </div>
                 <div class="step">
                     <h3 class="stepHeadline">High demand</h3>
-                    <p class="stepDesc">Grapes require huge upfront investment, so majority aren't capable of doing it. Thereby demand is always high.</p>
+                    <p class="stepDesc">Grape requires huge upfront investment, so majority aren't capable of doing it. Thereby demand is always high.</p>
                 </div>
             </div>
             <div class="why">
                 <div class="whyImage">
-                    <img id="whyImage" src="./images/challenge.png">
+                    <img id="whyImage" src="./images/struggle.png">
                 </div>
                 <div class="step">
                     <h3 class="stepHeadline">Extremely challenging</h3>
@@ -65,13 +67,14 @@
             </div>
             <div class="why">
                 <div class="whyImage">
-                    <img id="whyImage" src="./images/patience.png">
+                    <img id="whyImage" src="./images/hourglass (1).png">
                 </div>
                 <div class="step">
                     <h3 class="stepHeadline">Requires patience</h3>
                     <p class="stepDesc">It takes almost 1½ year to get a yield after plantation. Needs insane amount of patience and many folks lack it.</p>
                 </div>
             </div>
+            <p id="projects"></p>
         </div>
         
         <div class="ourProjects">
@@ -86,17 +89,17 @@
                 </div>
                 <div class="areaAndLocation">
                     <div class="projectArea">
-                        <img id="projectArea" src="./images/area.png">
+                        <img id="projectArea" src="./images/area (1).png">
                         <p class="areaPara1">4.5 ac</p>
                         <p class="areaPara2">Area</p>
                     </div>
                     <div class="projectCrop">
-                        <img id="projectCrop" src="./images/farmer.png">
+                        <img id="projectCrop" src="./images/farmer1.png">
                         <p class="cropPara1">Bharath kumar</p>
                         <p class="cropPara2">Owner</p>
                     </div>
                     <div class="projectLocation">
-                        <img id="projectLocation" src="./images/location.png">
+                        <img id="projectLocation" src="./images/placeholder.png">
                         <p class="locationPara1">Devanahalli</p>
                         <p class="locationPara2">Bijwara</p>
                     </div>
@@ -117,7 +120,7 @@
             <div class="ourLoc">
                 <a href="https://maps.app.goo.gl/n7nMUnbexLPhewma8">
                     <video autoplay muted loop id="locVideo">
-                        <source src="./images/ourLocationHD.mp4" type="video/mp4">
+                        <source src="./images/ourLocation.mp4" type="video/mp4">
                     </video>
                 </a>
             </div>
@@ -131,19 +134,19 @@
 
         <div class="bottomBtns" id="bottomBtns">
             <a href="#">
-                <img id="homeIcon" class="bottom bottomBtn1" src="./images/home1.png" onclick="changeHome();">
+                <img id="homeIcon" class="bottom bottomBtn1" src="./images/home01.png" onclick="changeHome();">
             </a>
-            <a href="./projects.html">
-                <img id="shovelIcon" class="bottom bottomBtn1" src="./images/shovel.png" onclick="changeShovel();">
+            <a href="#projects">
+                <img id="shovelIcon" class="bottom bottomBtn1" src="./images/shovel00.png" onclick="changeShovel();">
             </a>
             <a href="./saplings.html">
-                <img id="grapesIcon" class="bottom bottomBtn1" src="./images/grapes.png" onclick="changeGrapes();">
+                <img id="grapesIcon" class="bottom bottomBtn1" src="./images/grapes00.png">
             </a>
             <a href="./howPage.html">
-                <img id="pinIcon" class="bottom bottomBtn1" src="./images/pin.png" onclick="changePin();">
+                <img id="pinIcon" class="bottom bottomBtn1" src="./images/pin.png">
             </a>
             <a href="./contact.html">
-                <img id="phoneCallIcon" class="bottom bottomBtn1" src="./images/phoneCall.png" onclick="changePhoneCall();">
+                <img id="phoneCallIcon" class="bottom bottomBtn1" src="./images/phoneCall.png">
             </a>
         </div>
     </div>
