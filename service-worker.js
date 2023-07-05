@@ -7,6 +7,7 @@ self.addEventListener('install', event => {
             '/',
             '/style.css',
             '/script.js',
+            '/images/whiteLogo.png',
             '/images/anushka.jpeg',
             '/images/area (1).jpeg',
             '/images/arrow.png',
@@ -41,8 +42,7 @@ self.addEventListener('install', event => {
             '/images/storyImage.jpg',
             '/images/struggle.png',
             '/images/transparentLogo.png',
-            '/images/whatsapp.png',
-            '/images/whiteLogo.png'
+            '/images/whatsapp.png'
         ]);
         })
     );
