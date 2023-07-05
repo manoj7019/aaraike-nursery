@@ -32,3 +32,57 @@ function changeShovel() {
     grapesIcon.src = 'images/grapes00.png';
     phoneCallIcon.src = 'images/phoneCall.png';
 }
+
+function changePin() {
+    let pinIcon = document.getElementById('pinIcon');
+    if(pinIcon.src.match("pinny")) {
+        pinIcon.src = 'images/pin.png';
+        return;
+    } else {
+        pinIcon.src = 'images/pin1.png';
+    }
+    let homeIcon = document.getElementById('homeIcon');
+    let grapesIcon = document.getElementById('grapesIcon');
+    let phoneCallIcon = document.getElementById('phoneCallIcon');
+    let shovelIcon = document.getElementById('shovelIcon');
+    shovelIcon.src = 'images/shovel00.png';
+    homeIcon.src = 'images/home00.png';
+    grapesIcon.src = 'images/grapes00.png';
+    phoneCallIcon.src = 'images/phoneCall.png'
+}
+
+function changeGrapes() {
+    let grapesIcon = document.getElementById('grapesIcon');
+    if(grapesIcon.src.match("grapeee")) {
+        grapesIcon.src = 'images/grapes00.png';
+    } else {
+        grapesIcon.src = 'images/grapes01.png';
+    }
+    let homeIcon = document.getElementById('homeIcon');
+    let pinIcon = document.getElementById('pinIcon');
+    let phoneCallIcon = document.getElementById('phoneCallIcon');
+    let shovelIcon = document.getElementById('shovelIcon');
+    shovelIcon.src = 'images/shovel00.png';
+    homeIcon.src = 'images/home00.png';
+    pinIcon.src = 'images/pin.png';
+    phoneCallIcon.src = 'images/phoneCall.png'
+}
+
+function changePhoneCall() {
+    let phoneCallIcon = document.getElementById('phoneCallIcon');
+    if(phoneCallIcon.src.match("phoneee")) {
+        phoneCallIcon.src = 'images/phoneCall.png';
+    } else {
+        phoneCallIcon.src = 'images/phoneCall1.png';
+    }
+    let homeIcon = document.getElementById('homeIcon');
+    let grapesIcon = document.getElementById('grapesIcon');
+    let pinIcon = document.getElementById('pinIcon');
+    let shovelIcon = document.getElementById('shovelIcon');
+    shovelIcon.src = 'images/shovel00.png';
+    homeIcon.src = 'images/home00.png';
+    grapesIcon.src = 'images/grapes00.png';
+    pinIcon.src = 'images/pin.png'
+}
+
+
