@@ -151,21 +151,8 @@
             </a>
         </div>
     </div>
-    <div id="load1">
-        <img src="./images/loading1.gif">
-    </div>
-    <script>
-        let load1Element = document.getElementById('load1');
-        load1Element.style.display = 'none';
-
-        if(document.readyState === 'complete') {
-            load1Element.style.display = 'none';
-        } else {
-        window.addEventListener('load', function() {
-            load1Element.style.display = 'none';
-        })
-    }
-    </script>
+    <div class="loader"></div>
+    
     <script src="./script.js"></script>
     <script src="./service-worker.js"></script>
 </body>

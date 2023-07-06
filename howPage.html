@@ -99,21 +99,8 @@
             </a>
         </div>
     </div>
-    <div id="load5">
-        <img src="./images/loading1.gif">
-    </div>
-    <script>
-        let load5Element = document.getElementById('load5');
-        load5Element.style.display = 'none';
-
-        if(document.readyState === 'complete') {
-            load5Element.style.display = 'none';
-        } else {
-        window.addEventListener('load', function() {
-            load5Element.style.display = 'none';
-        })
-        }
-    </script>
+    <div class="loader"></div>
+    
     <script src="./script.js"></script>
     <script src="./service-worker.js"></script>
 </body>

@@ -278,21 +278,7 @@
         </div>
     </div>
     
-    <div id="load3">
-        <img src="./images/loading1.gif">
-    </div>
-    <script>
-        let load3Element = document.getElementById('load3');
-        load3Element.style.display = 'none';
-
-        if(document.readyState === 'complete') {
-            load3Element.style.display = 'none';
-        } else {
-        window.addEventListener('load', function() {
-            load3Element.style.display = 'none';
-        })
-    }
-    </script>
+    <div class="loader"></div>
 
     <script src="./script.js"></script>
     <script src="./service-worker.js"></script>

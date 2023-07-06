@@ -57,21 +57,8 @@
             </a>
         </div>
     </div>
-    <div id="load4">
-        <img src="./images/loading1.gif">
-    </div>
-    <script>
-        let load4Element = document.getElementById('load4');
-        load4Element.style.display = 'none';
-
-        if(document.readyState === 'complete') {
-            load4Element.style.display = 'none';
-        } else {
-        window.addEventListener('load', function() {
-            load4Element.style.display = 'none';
-        })
-    }
-    </script>
+    <div class="loader"></div>
+    
     <script src="./script.js"></script>
     <script src="./service-worker.js"></script>
 </body>

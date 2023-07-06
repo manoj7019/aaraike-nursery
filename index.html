@@ -33,36 +33,9 @@
             <p id="version" class="versionName">copyright © 2023 Aaraike.</p>
         </div>
     </div>
-    <div id="load">
-        <img src="./images/loading1.gif">
-    </div>
-    <script>
-        let loadElement = document.getElementById('load');
-        loadElement.style.display = 'none';
-
-        if(document.readyState === 'complete') {
-            loadElement.style.display = 'none';
-        } else {
-        window.addEventListener('load', function() {
-            loadElement.style.display = 'none';
-        })
-    }
-    </script>
-    <!-- <script>
-        document.onreadystatechange = function() {
-            let state = document.readyState;
-            if(state == 'interactive') {
-                document.getElementById('container').style.visibility = 'hidden';
-            } else if (state == 'complete') {
-                setTimeout(function() {
-                    document.getElementById('interactive');
-                    document.getElementById('load').style.visibility = 'hidden';
-                    document.getElementById('container').style.visibility = 'visible';
-                },500);
-            }
-        }
-    </script> -->
-
+    <div class="loader"></div>
+    
+    <script src="./script.js"></script>
     <script src="./service-worker.js"></script>
 </body>
 </html>
