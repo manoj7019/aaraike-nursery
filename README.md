@@ -1,3 +1,3 @@
 # aaraike-nursery
 
-You can access it here >> aaraike-nursery.netlify.app
+You can access it here >> https://aaraike-nursery.netlify.app
