@@ -408,11 +408,12 @@ a {
 
 .bottomBtns {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     /* background-color: aliceblue; */
     border-top: 0.1rem solid rgba(211, 211, 211, 0.286);;
     background-color: white;
-    padding: 1rem;
+    /* padding: 1rem; */
     position: fixed;
     position: -webkit-sticky;
     bottom: 0;
@@ -420,9 +421,26 @@ a {
 }
 
 .bottom {
-    width: 1.5rem;
-    /* padding: 1rem; */
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
 }
+
+.bottomBtn1 {
+    width: 100%;
+}
+
+#homeIcon,
+#shovelIcon,
+#grapesIcon,
+#pinIcon,
+#phoneCallIcon {
+    width: 1.5rem;
+}
+/* .bottom {
+    width: 1.5rem;
+    padding: 1rem;
+} */
 
 /* .bottom:active { */
     /* transform:scale(1.05); */
