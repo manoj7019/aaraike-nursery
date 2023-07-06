@@ -35,10 +35,16 @@
     </div>
     <div id="load"></div>
     <script>
+        let loadElement = document.getElementById('load');
+        loadElement.style.display = 'none';
+
+        if(document.readyState === 'complete') {
+            loadElement.style.display = 'none';
+        } else {
         window.addEventListener('load', function() {
-            let loadElement = document.getElementById('load');
             loadElement.style.display = 'none';
         })
+    }
     </script>
     <!-- <script>
         document.onreadystatechange = function() {

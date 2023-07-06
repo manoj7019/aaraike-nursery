@@ -280,10 +280,16 @@
     
     <div id="load3"></div>
     <script>
+        let load3Element = document.getElementById('load3');
+        loadElement.style.display = 'none';
+
+        if(document.readyState === 'complete') {
+            load3Element.style.display = 'none';
+        } else {
         window.addEventListener('load', function() {
-            let load3Element = document.getElementById('load3');
             load3Element.style.display = 'none';
         })
+    }
     </script>
 
     <script src="./script.js"></script>

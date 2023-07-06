@@ -101,10 +101,16 @@
     </div>
     <div id="load5"></div>
     <script>
+        let load5Element = document.getElementById('load5');
+        loadElement.style.display = 'none';
+
+        if(document.readyState === 'complete') {
+            load5Element.style.display = 'none';
+        } else {
         window.addEventListener('load', function() {
-            let load5Element = document.getElementById('load5');
             load5Element.style.display = 'none';
         })
+        }
     </script>
     <script src="./script.js"></script>
     <script src="./service-worker.js"></script>

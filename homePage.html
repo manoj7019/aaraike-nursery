@@ -153,10 +153,16 @@
     </div>
     <div id="load1"></div>
     <script>
+        let load1Element = document.getElementById('load1');
+        load1Element.style.display = 'none';
+
+        if(document.readyState === 'complete') {
+            load1Element.style.display = 'none';
+        } else {
         window.addEventListener('load', function() {
-            let load1Element = document.getElementById('load1');
             load1Element.style.display = 'none';
         })
+    }
     </script>
     <script src="./script.js"></script>
     <script src="./service-worker.js"></script>
