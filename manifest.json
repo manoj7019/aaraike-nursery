@@ -155,11 +155,6 @@
             "src": "/images/whiteLogo.png",
             "sizes": "276x276",
             "type": "image/png"
-        },
-        {
-            "src": "/images/loading1.gif",
-            "sizes": "200x200",
-            "type": "image/gif"
         }
     ],
     "start_url": "/",
@@ -211,6 +206,12 @@
         },
         {
             "src": "/images/storyImage.jpg"
+        },
+        {
+            "src": "/images/farmLand1.jpg"
+        },
+        {
+            "src": "/images/farmLand2.jpg"
         }
     ]
 }

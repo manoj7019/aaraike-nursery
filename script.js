@@ -33,7 +33,7 @@ function changeShovel() {
     phoneCallIcon.src = 'images/phoneCall.png';
 }
 
-/* function changePin() {
+function changePin() {
     let pinIcon = document.getElementById('pinIcon');
     if(pinIcon.src.match("pinny")) {
         pinIcon.src = 'images/pin.png';
@@ -83,7 +83,7 @@ function changePhoneCall() {
     homeIcon.src = 'images/home00.png';
     grapesIcon.src = 'images/grapes00.png';
     pinIcon.src = 'images/pin.png'
-} */
+}
 
 // loader
 

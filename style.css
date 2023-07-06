@@ -158,6 +158,8 @@ p {
     width: 100%;
     flex-wrap: wrap;
     padding: 1.5rem;
+    margin-bottom: -0.5rem;
+    /* background-color: rgba(211, 211, 211, 0.286); */
     /* color: white; */
     /* background-color: black; */
 }
@@ -309,7 +311,7 @@ p {
 .projectImage {
     width: 100%;
     padding: 1.5rem;
-    margin-bottom: -2rem;
+    margin: -1rem 0 -2rem 0;
 }
 
 #projectImage {
@@ -502,8 +504,9 @@ a {
 /* Our story part */
 
 .story {
-    padding: 1.5rem 1.5rem 1rem 1.5rem;
-    margin: 1.5rem 0;
+    padding: 1.5rem 0rem;
+    margin: 1.5rem;
+    border-top: 0.1rem solid rgba(128, 128, 128, 0.526);
 }
 
 #storyImage {
