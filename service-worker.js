@@ -7,6 +7,7 @@ self.addEventListener('install', event => {
             '/',
             '/style.css',
             '/script.js',
+            '/images/loading1.gif',
             '/images/icons/icon-48x48.png',
             '/images/icons/icon-72x72.png',
             '/images/icons/icon-96x96.png',

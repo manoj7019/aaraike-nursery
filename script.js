@@ -85,4 +85,3 @@ function changePhoneCall() {
     pinIcon.src = 'images/pin.png'
 }
 
-
