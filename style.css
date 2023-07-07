@@ -264,6 +264,10 @@ p {
     padding: 1rem;
 }
 
+#variety:active {
+    transform: scale(2.2);
+}
+
 @media only screen and (max-width : 768px) {
     .variety {
         width: calc(50% - 1rem);
